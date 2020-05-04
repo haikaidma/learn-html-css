@@ -1,0 +1,59 @@
+html,body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.toanbotrang{
+    background-image: url("http://webdesign-finder.com/html/canabro/images/slide01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.toanbotrang .menu-cha{
+    position: relative;
+}
+.menu .menu-cha .menu-con{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.884);
+    border-radius: 20px;
+}
+.menu .menu-cha:hover .menu-con{
+    opacity: 1;
+    visibility: visible;
+}
+.menu .menu-cha .menu-con li{
+    transition: 0.4s;
+    padding: 10px;
+    list-style: none;
+    
+}
+
+.menu .menu-cha .menu-con li a{
+    padding: 10px;
+    
+}
+.menu .menu-cha .menu-con li:hover a{    
+    color: rgb(78, 139, 17);
+}
+.menu{
+    margin: auto;
+    text-align: center;
+    background-color:white;
+    display: block;
+}
+.menu .menu-cha .nut{
+    list-style: none; 
+    padding: 10px;
+    margin: auto;
+    display: inline-block;
+}
+

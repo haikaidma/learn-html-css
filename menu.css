@@ -1,0 +1,27 @@
+ul{
+    display: flex;
+    background-color: yellow;
+}
+li{
+    list-style: none;
+    padding: 12px;
+    transition: 0.4s;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+div{
+    margin: auto;
+    display: block;
+    width: 900px;
+}
+li:hover{
+    margin-top: -6px;
+}
+ul.hai{
+    color:black;
+    background-color: crimson;
+}

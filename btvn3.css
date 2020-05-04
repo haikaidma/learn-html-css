@@ -1,0 +1,28 @@
+div{
+    margin: auto;
+    display: block;
+    background-color:brown ;
+    text-align: center;
+}
+ul{
+    display: block;
+    margin: auto;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+a{  color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+a:hover{
+    font-weight: bold;
+    color: burlywood;
+}
+li:hover{
+    background-color:orange;
+}

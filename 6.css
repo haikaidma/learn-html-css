@@ -1,0 +1,28 @@
+div{
+    margin: auto;
+    text-align: center;
+    background-color: salmon;
+    display: block;
+}
+ul{
+    display: block;
+    margin: auto;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+a:hover{
+    font-weight: bold;
+    color: slategray;
+}
+li:hover{
+    background-color: lightgoldenrodyellow;
+}
